@@ -1,0 +1,212 @@
+#left_layout{
+    float: left;
+    margin-top: 30px;
+    width:25%;
+    margin-left:5%;
+}
+#left_layout #box_1,#box_2,#box_3{
+    box-sizing: border-box;
+    border: 0px solid black;
+    margin-left: 2%;
+    margin: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#left_layout a{
+    text-decoration: none;
+    color: black;
+}
+
+#box_1{
+    width: 95%;
+    height:65px;
+}
+#box_1:hover{
+    width: 90%;
+    height:70px;
+}
+#box_2{
+    width: 90%;
+    height:60px;
+}
+#box_2:hover{
+    width: 95%;
+    height: 65px;
+}
+#box_3{
+    width: 90%;
+    height:60px;
+}
+#box_3:hover{
+    width: 95%;
+    height: 65px;
+}
+
+
+#left_layout{
+    font-size: 10px;
+}
+#left_layout b{
+    font-size: 18px;
+    font-family: 'BACK HOME', sans-serif;
+}
+#left_layout span{
+    font-size: 12px;
+    font-family: 'BACK HOME', sans-serif;
+}
+#left_layout b,span{
+    padding-left:20px;
+}
+#right_layout{
+    float:left;
+    width: 60%;
+    height:570px;
+    margin-left: 1%;
+    margin-top: 3.3%;
+    overflow: hidden;
+}
+#right_layout #box_4{
+    box-sizing: border-box;
+    display: block;
+    border: 0px solid black;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    width: 95%;
+    height:17%;
+    margin: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#box_4 img{
+    border-radius:border-box;
+    border:0px solid black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#box_4 img,b,span{
+    margin: 1%;
+}
+#box_4 #edit{
+    width:10%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    border-style: ridge;
+    background-color: rgba(140, 140, 145, 0.705);
+    border:1px solid rgba(140, 140, 145, 0.705);
+    color: white;
+}
+#box_5{
+    box-sizing: border-box;
+    border: 0px solid black;
+    margin-top: 30%;
+    margin-left: 2%;
+    width: 95%;
+    height:60%;
+    margin: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#box_5 h3{
+    padding: 2% 5%;
+    letter-spacing: 3px;
+}
+table{
+    margin: 10px 10px 35px 25px;
+}
+table tr{
+    border-left: 10px;
+}
+table tr>th{
+    text-align: left;
+
+}
+table tr td{
+    border: 1px solid rgb(165, 186, 234);
+    padding:10px 5px 10px 15px;
+    border-radius: 5px;
+}
+#box_6,#box_7{
+    display: none;
+    box-sizing: border-box;
+    border: 0px solid black;
+    margin-left: 1%;
+    margin-top: 3%;
+    width: 95%;
+    height:60%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#box_6 h3{
+    padding: 2% 1% 1% 5%;
+    letter-spacing: 3px;
+}
+#box_6 input{
+    width:200px;
+    height: 20px;
+}
+#box_6 div{
+    float:left;
+    margin-top:2px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+#button a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#button{
+
+    box-sizing: border-box;
+    width:80%;
+    border:1px solid rgb(46, 46, 234);
+    border-radius: 5px;
+    border-style: ridge;
+    background-color: rgb(46, 46, 234);
+}
+#box_7 h3{
+    padding: 2% 1% 1% 5%;
+    letter-spacing: 3px;
+}
+#box_7 h4{
+    padding:2% 1% 0% 5%;
+}
+#box_7 #font_div{
+    box-sizing: border-box;
+    border: 0px solid black;
+    margin-left: 4%;
+    margin-top: 3%;
+    width: 90%;
+    height:18.5%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#box_7 footer{
+    width: 100%;
+}
+#box_7 div footer:hover{
+    background-color: rgba(140, 140, 145, 0.705);
+}
+#box_7 a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+#box_7 #footer_div{
+    box-sizing: border-box;
+    border: 0px solid black;
+    margin-left: 4%;
+    margin-top: 3%;
+    width: 90%;
+    height:27.5%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}

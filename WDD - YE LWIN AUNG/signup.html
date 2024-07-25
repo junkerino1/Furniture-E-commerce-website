@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>paikea.com/signup</title>
+        <link href="signup.css" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/back-home" rel="stylesheet">
+        <script src="signup.js"></script>
+        <style>
+             @import url('https://fonts.cdnfonts.com/css/back-home');
+                *{
+                    font-family: 'BACK HOME', sans-serif;
+                }
+            body{
+                margin-left:auto;
+                margin-right:auto;
+                max-width:1024px;
+                min-width:640px;
+                width:95%;
+                background-color: #3A4B5D;
+                /*
+                background-image: url("image02.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                */
+            }
+        </style>
+        <script>
+            window.embeddedChatbotConfig = {
+            chatbotId: "kXCS8yzRmXSOEHgfniaBq",
+            domain: "www.chatbase.co"
+            }
+            </script>
+            <script
+            src="https://www.chatbase.co/embed.min.js"
+            chatbotId="kXCS8yzRmXSOEHgfniaBq"
+            domain="www.chatbase.co"
+            defer>
+            </script>
+    </head>
+    <body>
+        
+        <div id="layout">
+            <h2 style="margin-left: 5%;padding-top: 10px;letter-spacing: 2px;">All You Need For A <span>Perfect Home</span> &#x2302;</h2>
+            <form action="#" target="#" ></form>
+            <input type="text" id="fname" name="fname" placeholder="First Name" style="width:22.5%;height:20px;" />
+            <input type="text" id="mname" name="mname" placeholder="Middle Name" style="width:22.5%;height:20px;"/>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" style="width:26.5%;height:20px;"/>
+            <input type="password" id="cpswd" name="cpswd" placeholder="Password" style="width:39%;height:20px;" required/>
+            <input type="password" id="cfmPswd" name="cfmpswd" placeholder="Comfirm Password" style="width:39%;height:20px;" required/>
+            <input type="email" id="mail" name="mail" placeholder="Email  @gmail.com" style="width:39%;height:20px;"/>
+            <input type="tel" id="phNumber" name="phNumber" placeholder="Phone Number" style="width:39%;height:20px;"/>
+            <input type="date" id="bday" name="bday" min="1980-01-01" style="width:20%;padding: 2px;"/>
+            <input type="url" id="addrs" name="addrs" placeholder="Address url" style="width:75%;height:20px; float:left;"/>
+            <select id="listOfNat" name="listOfNat" style="width:20%;height:26px;">
+                <option value="Hidden"> Nationality</option>
+                <option value="Brunei">Brunei</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="China">China</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Laos">Laos</option>
+                <option value="Maylaysia">Malaysia</option>
+                <option value="Myanmar">Myanmar</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Vietnam">Vietnam</option>
+            </select>
+            <input type="number" id="postCode" name="postCode" maxlength="5" placeholder="post code" style="width:156px;height:20px;"/>
+            <br><br><br>
+            <p style="margin-left: 6%; font-size: 18px;">Gender</p>
+            <input type="radio" id="male" name="gender" value="Male"/>
+                <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female"/>
+                <label for="female">Female</label>
+            <input type="radio" id="hidden" name="gender" value="Hidden"/>
+                <label for="hidden">Hidden</label>
+            <p style="margin-top: 30px;" onclick="creatAccount()"><a id="create" href="#"> Create</a></p><br>
+            <footer>
+                <ul>
+                    <li><a href="../WDD - OOI JUN KANG/home.html">&#9679; &nbsp;Home</a></li>
+                    <li><a href="../WDD - CHAW CHUN JIA/product.html">&#9679; &nbsp;Products</a></li>
+                </ul>
+            </footer>
+        </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+/* Login page*/
+#layout{
+    box-sizing: border-box;
+    border: 0px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+#image_layout{
+    margin: 10px;
+    float:left;
+    width: 60%;
+    height: 100%;
+}
+#image_layout ul a{
+    float: left;
+    margin-left: 30px;
+    text-decoration: none;
+}
+#image_layout ul a li{
+    list-style-type: none;
+    color: black;
+    font-size: 18px;
+}
+#image_layout ul a li:hover{
+    font-size: 20px;
+}
+#login_layout{
+    background-color: whitesmoke;
+}
+#login_layout form{
+    padding-top: 5px;
+    margin-left: 65%;
+}
+.log_in_button{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0;
+    width:80%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border-style: ridge;
+    background-color: rgb(46, 46, 234);
+    border:1px solid rgb(46, 46, 234);
+    color: white;
+}
+.log_in_button a{
+    text-decoration: none;
+}
+.log_in_button:hover{
+    background-color: rgba(12, 8, 249, 0.813);
+}

@@ -1,0 +1,223 @@
+/* ---------------- Banner ---------------- */
+#poster{
+    background-image: url(image/blue.png);
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 80px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+#poster h2{
+    padding-bottom: 15px;
+}
+
+#poster button{
+    background-image: url(image/stroke.png);
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: transparent;
+    color: #3A4B5D;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.products img{
+    width:32%;
+    padding: 5px;
+    position:relative;
+    border: 2px solid black;
+    margin: 5px;
+    float: left;
+    border-radius: 5px;
+}
+
+.product .bottom{
+    position: absolute;
+
+}
+
+h1{
+    font-size:30px;
+    text-align: center;
+}
+
+
+/* ---------------- Categories ---------------- */
+.title{
+    text-align:center;
+    font-size:3rem;
+    padding:0.5rem;
+    color:#222;
+}
+
+.categories .row
+{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   flex-wrap: wrap; 
+}
+.categories .column
+{
+    width: 31%;
+    background:#fff;
+    height: 30%;
+    padding:15px;
+    margin:10px;
+    border-radius:1rem;
+    box-shadow:0 .3rem .6rem #698DB4;
+    text-align: center;
+}
+.categories .column:hover 
+{
+    transition:.5s ease;
+    transform:translateY(-.5rem);
+}
+.categories .column img 
+{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.categories .column h2
+{
+    padding: 0;
+    color:black;
+    font-size:22px;
+    font-weight: 700;
+}
+
+.categories .column p 
+{
+    color:gray;
+    font-size: 1rem;
+    font-weight: 500;
+    padding:.5rem 0;
+}
+
+.imagemap img{
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px; 
+    margin-left: 100px;
+    box-shadow:0 .3rem .6rem #698DB4;
+    width: -webkit-fill-available;
+}
+.imagemap{
+    margin-right:100px;
+}
+
+.imagemap h1{
+    margin-left:50px;
+}
+/* ---------------- Comment ---------------- */
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.review h3{
+    color:gray;
+    margin-bottom: 10px;
+}
+
+.full-boxer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comment-box:hover{
+    transition:.5s ease;
+    transform:translateY(-.5rem);
+}
+
+.comment-box{
+    height: 500px;
+    width: 40%;
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow:0 .3rem .6rem #698DB4;
+}
+
+.Profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile-image{
+    width: 70px;
+    height: 70px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.3);
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.Name strong{
+    color: black;
+    font-size: 18px;
+}
+
+.Name span{
+    color: gray;
+    margin-top: 2px;
+}
+
+.comment p{
+    color: black;
+}
+
+.photo img{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+audio{
+    display:none;
+   }

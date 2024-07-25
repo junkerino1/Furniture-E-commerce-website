@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+
+        body {
+           font-family: 'Libre Franklin', sans-serif;
+           background-color: #f9f9f9;
+           margin: 0;
+           padding: 0;
+           background-image: url('houseware_background.jpg');
+           background-size: cover;
+           background-repeat:repeat-y;
+
+       }
+       
+       .header {
+           background-color: #a59bab;
+           color: white;
+           padding: 10px;
+       }
+       
+       .logo {
+           vertical-align: middle;
+       }
+       
+       .header-right a {
+           color: white;
+           text-decoration: none;
+           margin-left: 20px;
+       }
+       
+       .header-right a:hover {
+           color:#49484a ;
+       }
+       
+       h1 {
+            font-size:50px;
+           margin-top: 100px;
+           color: #333;
+           text-align: center;
+           text-shadow:2px 2px 5px rgb(255, 255, 255);
+       }
+       
+       .product_category {
+           margin-top: 30px;
+           text-align: center;
+       }
+       
+       button {
+           background-color: #ffffff;
+           height: 250px;
+           border: none;
+           border-radius: 5px;
+           padding: 15px 30px;
+           font-size: 20px;
+           cursor: pointer;
+           transition: background-color 0.5s ease;
+           width:80%;
+           display: block; 
+           margin: 10px auto;
+           filter: drop-shadow(5px 5px 5px #222);
+           
+        }
+       
+       button a {
+           color: #222;
+           text-decoration: none;
+           display: flex;
+           align-items: center;
+           font-size: 35px;
+           font-weight: bold;
+           text-align:center;
+
+       }
+       
+       button img {
+           height: 200px;
+           margin-right: 10px;
+           width: 200px;
+       }
+       
+       button:hover {
+            background-color:#3A4B5D;
+           letter-spacing: 0.1em; 
+        }
+
+        button a:hover{
+            color:whitesmoke;
+        }
+       
+       button:active{
+        transform:scale(0.96);
+       }
+
+       @media screen and (max-width: 768px){
+        button{
+            width:600px;
+        }
+       }

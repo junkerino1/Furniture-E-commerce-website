@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link href="../../WDD - OOI JUN KANG/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="Shopping Cart.css">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <section id="header">
+        <a href="../WDD - OOI JUN KANG/home.html"><img src="image/logowhite.png" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="../WDD - OOI JUN KANG/home.html">Home</a></li>
+                <li><a href="../WDD - CHAW CHUN JIA/product.html">Product</a></li>
+                <li><a href="../WDD - OOI JUN KANG/aboutus.html">About Us</a></li>
+                <li><a href="../WDD - GOH CHUN WEN/contactus.html">Contact Us</a></li>
+                <li><a href="../WDD - HIEW LI WEI/Shopping Cart.html">Cart</a></li>
+                <li><a href="../WDD - YE LWIN AUNG/login.html">Login</a></li>
+            </ul>
+        </div>
+    </section>
+ <main>
+    <div id="container">
+
+            <section class="products">
+                <h2 style="color:black">Shopping Cart</h2>
+                <ul>
+                    <li data-name="Bedframe 1" data-price="100.00">
+                        <img src="../WDD - CHAW CHUN JIA/image_product/bed_frame1.webp" width="75px" height="75px"/> Bed Frame 1 - RM100.00
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="item-quantity">0</span>
+                            <button class="plus">+</button>
+                        </div> 
+                    </li>
+                    <li data-name="Bedframe 2" data-price="100.00">
+                        <img src="../WDD - CHAW CHUN JIA/image_product/bed_frame2.webp" width="75px" height="75px"/> Bed Frame 2 - RM100.00
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="item-quantity">0</span>
+                            <button class="plus">+</button>
+                        </div> 
+                    </li>
+                    <li data-name="Bedframe 3" data-price="100.00">
+                        <img src="../WDD - CHAW CHUN JIA/image_product/bed_frame3.webp" width="75px" height="75px"/> Bed Frame 3 - RM100.00
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="item-quantity">0</span>
+                            <button class="plus">+</button>
+                        </div> 
+                    </li>
+                    <li data-name="Bedframe 4" data-price="100.00">
+                        <img src="../WDD - CHAW CHUN JIA/image_product/bed_frame4.webp" width="75px" height="75px"/> Bed Frame 4 - RM100.00
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="item-quantity">0</span>
+                            <button class="plus">+</button>
+                        </div> 
+                    </li>
+                    <li data-name="Bedframe 5" data-price="100.00">
+                        <img src="../WDD - CHAW CHUN JIA/image_product/bed_frame5.webp" width="75px" height="75px"/> Bed Frame 5 - RM100.00
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="item-quantity">0</span>
+                            <button class="plus">+</button>
+                        </div> 
+                    </li>
+                    <li data-name="Kitchen cookware 2" data-price="100.00">
+                        <img src="../WDD - CHAW CHUN JIA/image_product/kictchen_cookware1.png" width="75px" height="75px"/> Kitchen Cookware 1 - RM100.00
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="item-quantity">0</span>
+                            <button class="plus">+</button>
+                        </div> 
+                    </li>
+                    <!-- Add more products here -->
+                </ul>
+            </section>
+        <!-- Add more items here -->
+    </div>
+
+    <div class="cart">
+        <ul id="cart-list"></ul>
+        <div class="total">
+            Total: RM<span id="total">0.00</span>
+        </div>
+        <div class="checkout-button">
+            <button id="checkout-button" onclick="window.location.href = 'Payment.html'">Checkout</button>
+        </div>
+    </div>
+</main>
+
+    <script src="Shopping Cart.js"></script>
+    </div>
+</body>
+
+<footer class="base">
+    <div class="table">
+        <div class="row">
+            <img src="image/logo.png" width="150px">
+        </div>
+    </div>
+
+    <ul> 
+        <li>Featured</li><br/>
+        <li><a href="../WDD - CHAW CHUN JIA/product.html#kitchen">Kitchen</a></li>
+        <li><a href="../WDD - CHAW CHUN JIA/product.html#living_room">Living Room</a></li>
+        <li><a href="../WDD - CHAW CHUN JIA/product.html#bedroom">Bedroom</a></li>
+    </ul>
+
+    <ul> 
+        <li style="padding-top: 20px;">About Paikea</li><br/>
+        <li><a href="../WDD - OOI JUN KANG/faq.html">FAQ</a></li>
+        <li><a href="../WDD - GOH CHUN WEN/contactus.html">Contact Us</a></li>
+        <li><a href="../WDD - GOH CHUN WEN/location.html">Location</a></li>
+        <li><a href="../WDD - OOI JUN KANG/career.html">Career</a></li>
+    </ul>
+
+    <div>
+        <p>Follow Us</p>
+        <a href="https://www.facebook.com/chunjia87777777?mibextid=ZbWKwL"><img src="icon/facebook.png"></a>
+        <a href="https://www.instagram.com/chunjia87777777/"><img src="icon/instagram.png"></a>
+        <a><img src="icon/shopee.png"></a>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,224 @@
+/* ---------------- Career ---------------- */
+
+.career{
+    margin-top:30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.career .career-content img{
+    height: auto;
+    width: 400px;
+    max-width: 100%;
+}
+
+.text{
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.career-content{
+    width: 1024px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around ;
+}
+
+.text h1{
+    color: #222;
+    font-size: 85px;
+    margin-top:50px;
+    text-align: center;
+}
+
+.text p{
+    color: #222;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    margin-left:20px;
+}
+
+.column{
+    margin:auto;
+    width: 67%;
+    padding:3%;
+    height:1300px;
+
+}
+h2{
+    color:black;
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 10px;
+    
+}
+
+/* ---------------- Benefits ---------------- */
+
+.benefit{
+    float:left;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icons{
+    float:left;
+    display:block;
+    text-align:center;
+    width: 20%;
+    padding: 20px 5px;
+
+}
+
+.icons img{
+    height: 90px;
+    width: 90px;
+}
+
+.icons p{    
+    color: #222;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+
+/* ---------------- Job Opportunities ---------------- */
+
+.categories .row
+{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   flex-wrap: wrap; 
+}
+.categories .column
+{
+    width: 40%;
+    background:#fff;
+    height: 575px;
+    padding:1.2rem;
+    margin:15px;
+    border-radius:1rem;
+    box-shadow:0 .3rem .6rem #698DB4;
+    text-align: center;
+}
+.categories .column:hover 
+{
+    transition:.5s ease;
+    transform:translateY(-.5rem);
+}
+.categories .column img 
+{
+    width:100%;
+    object-fit: cover;
+    border-radius: 1rem ;
+}
+
+.categories .column h2
+{
+    padding: 0;
+    color:#3A4B5D;
+    font-size:26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.categories .column h3
+{
+    padding: 0;
+    color:#222;
+    font-size:16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.categories .column p 
+{
+    color:gray;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* ---------------- Application Form ---------------- */
+form{
+    padding-left: 25px;
+    box-shadow:0 .3rem .6rem #698DB4;
+    margin:20px;
+    border-radius: 15px;
+}
+
+input[type=text], 
+input[type=email], 
+input[type=tel], 
+select, 
+textarea{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 10%;
+    font-size: 15pt;
+    clear: both;
+    margin-bottom: 20px;
+    margin-right: 17%;
+}
+
+.container {
+    padding: 15px;
+    height: 650px;
+}
+
+.subject {
+    float:left;
+    width: 15%;
+    margin-top: 20px;
+}
+
+.form_column {
+    width: 85%;
+    margin-top:20px;
+    float:left;
+}
+
+.form_row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+button{
+    border-radius: 12px;
+    height:40px;
+    border:1px solid black; 
+}
+
+input[type=file]{
+    float:left;
+    margin-top:20px;
+}
+

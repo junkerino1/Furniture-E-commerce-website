@@ -1,0 +1,120 @@
+/* Reset some default styles for form elements */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the page */
+
+@font-face{
+    font-family:'Back Home';
+    src: url(Back\ Home.otf)
+}
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Back Home', sans-serif;
+        letter-spacing: 2px;
+    }
+
+#container{
+    width: 640px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+    margin-left: 10%;
+    box-sizing: border-box;
+    border: 0px solid #000;
+    background-color: #f7f7f7;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height:1000px;
+    padding-top:40px;
+}
+
+
+
+/* Styling for products section */
+.products {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.products h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.products ul {
+    list-style: none;
+}
+
+.products li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px 15px;
+    background-color: #fff;
+}
+
+.products li button {
+    background-color: hsl(211, 65%, 41%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+  
+
+/* Styling for cart section */
+.cart {
+    display: flex;
+    padding-top: 20px;
+    max-width: 100%;
+    width: 100%;
+    padding: 78px 78px 0px 78px;
+}
+
+.total{
+    display: inline-block;
+    width: 100%;
+    font-size:30px;
+}
+
+.cart ul {
+    list-style: none;
+}
+
+#checkout-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: right;
+}
+
+#checkout-button:hover {
+    background-color: #0056b3;
+}

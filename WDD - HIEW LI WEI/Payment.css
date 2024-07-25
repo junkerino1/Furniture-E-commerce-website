@@ -1,0 +1,61 @@
+/* Reset some default styles for form elements */
+form {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the payment form container */
+main {
+    max-width: 400px;
+    margin-top: 80px;
+    margin-left: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 180px;
+}
+
+
+
+/* Add additional styling for the card number, expiry, and CVC inputs */
+#card-number,
+#card-expiry,
+#card-cvc {
+    background-color: #f8f8f8;
+}
+
+/* Style error messages (you can display these dynamically using JavaScript) */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Add any other styles specific to your payment form as needed */

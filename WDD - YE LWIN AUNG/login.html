@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>paikea.com/login</title>
+        <link href="style_page.css" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/back-home" rel="stylesheet">
+        <script src="index.js"></script>
+        <script src="main.js"></script>
+        <style>
+              @import url('https://fonts.cdnfonts.com/css/back-home');
+                *{
+                    font-family: 'BACK HOME', sans-serif;
+                }
+            body{
+                margin-left:auto;
+                margin-right:auto;
+                max-width:1024px;
+                min-width:640px;
+                width:95%;
+                background-color: #3A4B5D;
+                /*background-image: url("image02.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                */
+            }
+        </style>
+        <script>
+            window.embeddedChatbotConfig = {
+            chatbotId: "kXCS8yzRmXSOEHgfniaBq",
+            domain: "www.chatbase.co"
+            }
+            </script>
+            <script
+            src="https://www.chatbase.co/embed.min.js"
+            chatbotId="kXCS8yzRmXSOEHgfniaBq"
+            domain="www.chatbase.co"
+            defer>
+            </script>
+    </head>
+    <body>
+        <div id="layout">
+           <section id="image_layout">
+            <img src="image01.jpg" width="100%" height="100%" alt="img">
+            <br>
+            <ul>
+                <a href="../WDD - OOI JUN KANG/home.html"><li>Home</li></a>
+                <a href="../WDD - CHAW CHUN JIA/product.html"><li>Products</li></a>
+            </ul>
+            </section>
+            <section id="login_layout">
+
+                <form action="#">
+                    <h2>Sign in</h2>
+                    <input type="text" id="userName" name="userName" placeholder="Email or Phone number" style="width:76%; height:30px;" required /><br><br>
+                    <input type="password" id="logPswd" name="logPswd" placeholder="Password" style="width:76%; height:30px;" required /><br>
+                    <input type="checkbox" onclick="showPswd()"/><i>Show Password</i>
+                    <p class="log_in_button" onclick="login_function()"><a href="#" alt="button" style="font-size:14px;color: #f5f0f0;">CONTINUE</a></p>
+                    <p>Don't have account?<i><a href="signup.html">Register here</a></i></p>
+                    <p style="font-size: small;padding-left: 30px;">or Connect with Social Media</p>
+                    <img src="Facebook-logo-2019.png" width="17px" height="17px" alt="facebook"/>&nbsp; <a href="https://web.facebook.com/?stype=lo&deoia=1&jlou=AfdKKnRcmObvKemXiq7i8g6ViAaadyK0bgvrHbQl2LspmBJ8X95dCOb0crTvYKmn8VFPw2aTuJQNHltFzddK-sZvq2_aKe31jQCnaW9WfRYw3A&smuh=44989&lh=Ac9tgEdR9TVO9BJtblk" style="color: blue;">Sign in with Facebook</a><br><br>
+                    <img src="Instagram-Icon.png" width="15px" height="15px" alt="instagram"/>&nbsp; <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fonetap%2F%3Fnext%3D%252F%26__coig_login%3D1" style="color: blue;">Sign in with Instagram</a><br><br>
+            </form>
+            </section>
+        </div>
+
+    </body>
+</html>
